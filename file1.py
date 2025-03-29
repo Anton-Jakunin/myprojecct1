@@ -5,3 +5,7 @@ while a[count] > 0:
     summa += a[count]
     count += 1
 print(summa / count)
+
+
+
+
