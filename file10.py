@@ -1,0 +1,11 @@
+from tkinter import *
+root = Tk()
+canvas = Canvas(root, width = 600, height = 600)
+canvas.pack()
+canvas.create_rectangle(10, 10, 50,50)
+canvas.create_line(10, 10, 25, 25)
+canvas.create_rectangle(25, 25, 65, 65)
+canvas.create_line(10, 50, 25, 65)
+canvas.create_line(50, 10, 65, 25)
+canvas.create_line(50, 50, 65, 65)
+root.mainloop()
